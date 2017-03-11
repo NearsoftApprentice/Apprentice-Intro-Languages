@@ -1,0 +1,30 @@
+<HTML>
+<HEAD></HEAD>
+<BODY>
+	<h1> Calculadora </h1>
+        Valor a: <input type="text" id="valor1" value=" "/>
+	<br/>
+        Valor b: <input type="text" id="valor2" value=" " />
+	<br/>
+	<hr/>
+	Sumar: <button id="sumar" onclick="ejecutarOperacion('sumarDosNumeros')"> Sumar </button>
+	<br/>
+	Restar: <button id="restar" onclick="ejecutarOperacion('restarDosNumeros')"> Restar </button>
+	<br/>	
+	Multiplicar: <button id="multiplicar" onclick="ejecutarOperacion('multiplicarDosNumeros')"> multiplicar </button>
+	<br/>	
+	Dividir: <button id="dividir" onclick="ejecutarOperacion('dividirDosNumeros')"> dividir </button>
+	<br/>
+	<hr/>
+	<h1>Calculadora de Listas</h1>
+	Valor a: <input type="text" id="listaDeNumeros" value=" "/> 
+	Sumar: <button id="sumarTodos" onclick="ejecutarOperacion('sumarTodosDeLista')"> Sumar </button>
+	<br/>
+	<span id="resultado">
+	</span>
+    	
+	<script src="javascript/calculadora.js"></script>
+	<hr/>
+
+</BODY>
+</HTML>
